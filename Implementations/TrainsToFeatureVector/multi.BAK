@@ -1,0 +1,37 @@
+
+choose_combination(T,N) :-
+                      (N=1 -> singleChoice(T,1);
+                      !).
+
+
+singleChoice(([C|Cs]),N) :-
+                 (N=<17 ->
+                 has_car([C|Cs],A),choose_property(N,A),write("WWW");
+                 !), N is N+1,
+                 singleChoice(([C|Cs]),N).
+
+
+choose_property(N,C) :-
+                   (N=1 -> ellipse(C);
+                   N=2 -> hexagon(C);
+                   N=3 -> rectangle(C);
+                   N=4 -> u_shaped(C);
+                   N=5 -> bucket(C);
+                   N=6 -> long(C);
+                   N=7 -> short(C);
+                   N=8 -> no_roof(C);
+                   N=9 -> flat_roof(C);
+                   N=10 -> peaked_roof(C);
+                   N=11 -> arc_roof(C);
+                   N=12 -> circle_load(C);
+                   N=13 -> rectangle_load(C);
+                   N=14 -> triangle_load(C);
+                   N=15 -> one_load(C);
+                   N=16 -> two_load(C);
+                   three_load(C)).
+                   
+                   
+
+                    infront(([C|Cs]),A,B),
+                   has_load(A,2),
+                   arg(2,B,u_shaped).

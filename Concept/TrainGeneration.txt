@@ -1,0 +1,23 @@
+In Datenbank enthaltene Informationen:
+
+Richtung
+
+Anzahl Wagons
+
+Eigenschaften Wagons -- Form, Länge, Anzahl Räder, offen/geschlossen, Art des Dachs...
+
+Beziehung zwischen Wagons -- vor, hinter, Inhalt (Anzahl und Form der Elemente)
+
+
+Umsetzung:
+
+Regeln festlegen für East und West
+
+Mit Data Generator Datensatz erzeugen lassen
+
+(wahrscheinlich in Prolog zu programmieren --> Darstellung mit FIRST-ORDER Logik am einfachsten --> Datensatz als FIRST-ORDER rules)
+
+Komplexität klein halten
+
+
+Konsistenten Datensatz erzeugen!
