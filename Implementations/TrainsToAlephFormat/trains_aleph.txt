@@ -1,0 +1,8 @@
+has_car(east2,car_21).
+shape(car_21,rectangle).long(car_21).roof(car_21,no_roof).load(car_21,triangle_load,3).
+has_car(east2,car_22).
+shape(car_22,rectangle).short(car_22).roof(car_22,no_roof).load(car_22,triangle_load,1).
+has_car(east2,car_23).
+shape(car_23,rectangle).long(car_23).roof(car_23,flat_roof).load(car_23,rectangle_load,3).
+has_car(east2,car_24).
+shape(car_24,rectangle).long(car_24).roof(car_24,flat_roof).load(car_24,triangle_load,3).

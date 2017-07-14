@@ -1,6 +1,8 @@
 % Author: Matthias Delfs
 % Date: 11-Jul-17
 
+%eastbound([c(1,ellipse,long,none,l(rectangle,2)),c(2,rectangle,long,flat,l(circle,3)),c(3,rectangle,long,none,l(triangle,2)),c(4,hexagon,short,flat,l(triangle,1))])
+
 
 feature(T) :- arg(1,T,L), examine(L).
 
