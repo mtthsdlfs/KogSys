@@ -1,0 +1,2 @@
+eastbound(A) :-
+   infront(A,B,C), long(B), load(C,triangle_load,1).

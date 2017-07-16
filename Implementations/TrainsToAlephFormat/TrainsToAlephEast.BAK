@@ -9,7 +9,10 @@
 
 aleph(T,Z) :- arg(1,T,L), examine(L,1,Z).
 
-examine(([]),_,_).
+examine(([]),N,Z) :-
+                   N1 is N-1,
+                   examine2(N1,Z).
+
 examine(([C|Cs]),N,Z):-
                    open('trains_aleph.txt',append,Stream),
                      write(Stream, "has_car(east"), write(Stream,Z), write(Stream,",car_"), write(Stream,Z), write(Stream,N), write(Stream,")."),nl(Stream),
@@ -38,8 +41,16 @@ examine(([C|Cs]),N,Z):-
                    N1 is N + 1,
                    examine((Cs),N1,Z).
 
+examine2(1,_).
 
-
+examine2(N,Z) :-
+               N1 is N - 1,
+               open('trains_aleph.txt', append, Stream),
+               write(Stream, "infront(car_"), write(Stream,Z), write(Stream,N1), write(Stream, ",car_"), write(Stream,Z), write(Stream,N), write(Stream,")."),
+               nl(Stream),
+               close(Stream),
+               examine2(N1,Z).
+                    
 
 has_car(T,C) :- member(C,T).
 

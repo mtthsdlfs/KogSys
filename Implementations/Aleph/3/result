@@ -1,0 +1,7 @@
+eastbound(A) :-
+   infront(A,B,C), load(B,triangle_load,3).
+eastbound(A) :-
+   infront(A,B,C), roof(B,flat_roof), load(C,triangle_load,1).
+eastbound(A) :-
+   infront(A,B,C), load(B,triangle_load,2), infront(A,D,B).
+eastbound(east4).

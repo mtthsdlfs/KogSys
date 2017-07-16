@@ -1,22 +1,21 @@
 % Author: Matthias Delfs
 % Date: 11-Jul-17
 
-%eastbound([c(1,ellipse,long,none,l(rectangle,2)),c(2,rectangle,long,flat,l(circle,3)),c(3,rectangle,long,none,l(triangle,2)),c(4,hexagon,short,flat,l(triangle,1))])
-
+:- use_module(library(lists)).
 
 feature(T) :- arg(1,T,L), examine(L).
 
 examine(([])).
 examine((T)):-
-                   open('trains_feature_csv.txt',append,Stream),
+                   open('trains_feature_csv_test.txt',append,Stream),
                     (train_2(T) -> write(Stream,"1, "); write(Stream,"0, ")),
                     (train_3(T) -> write(Stream,"1, "); write(Stream,"0, ")),
                     (train_4(T) -> write(Stream,"1, "); write(Stream,"0, ")),
-                    (has_car(T,C), ellipse(C) -> write(Stream,"1, "); write(Stream,"0, ")),
-                    (has_car(T,C), hexagon(C) -> write(Stream,"1, "); write(Stream,"0, ")),
-                    (has_car(T,C), rectangle(C) -> write(Stream,"1, "); write(Stream,"0, ")),
-                    (has_car(T,C), u_shaped(C) -> write(Stream,"1, "); write(Stream,"0, ")),
-                    (has_car(T,C), bucket(C) -> write(Stream,"1, "); write(Stream,"0, ")),
+                    (has_car(T,C1), ellipse(C1) -> write(Stream,"1, "); write(Stream,"0, ")),
+                    (has_car(T,C2), hexagon(C2) -> write(Stream,"1, "); write(Stream,"0, ")),
+                    (has_car(T,C3), rectangle(C3) -> write(Stream,"1, "), write(1); write(Stream,"0, "), write(0)),
+                    (has_car(T,C4), u_shaped(C4) -> write(Stream,"1, "); write(Stream,"0, ")),
+                    (has_car(T,C5), bucket(C5) -> write(Stream,"1, "); write(Stream,"0, ")),
                     (has_car(T,C), long(C) -> write(Stream,"1, "); write(Stream,"0, ")),
                     (has_car(T,C), short(C) -> write(Stream,"1, "); write(Stream,"0, ")),
                     (has_car(T,C), no_roof(C) -> write(Stream,"1, "); write(Stream,"0, ")),

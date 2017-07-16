@@ -9,21 +9,48 @@
 
 aleph(T,Z) :- arg(1,T,L), examine(L,1,Z).
 
-examine(([]),_,_).
+examine(([]),N,Z) :-
+                   N1 is N-1,
+                   examine2(N1,Z).
+
 examine(([C|Cs]),N,Z):-
                    open('trains_aleph.txt',append,Stream),
                      write(Stream, "has_car(east"), write(Stream,Z), write(Stream,",car_"), write(Stream,Z), write(Stream,N), write(Stream,")."),nl(Stream),
-
                     (rectangle(C) -> write(Stream, "shape(car_"), write(Stream,Z), write(Stream,N), write(Stream,",rectangle)."); write(Stream,"")),
-
+                    (ellipse(C) -> write(Stream, "shape(car_"), write(Stream,Z), write(Stream,N), write(Stream,",ellipse)."); write(Stream,"")),
+                    (hexagon(C) -> write(Stream, "shape(car_"), write(Stream,Z), write(Stream,N), write(Stream,",hexagon)."); write(Stream,"")),
+                    (u_shaped(C) -> write(Stream, "shape(car_"), write(Stream,Z), write(Stream,N), write(Stream,",u_shaped)."); write(Stream,"")),
+                    (bucket(C) -> write(Stream, "shape(car_"), write(Stream,Z), write(Stream,N), write(Stream,",bucket)."); write(Stream,"")),
+                    (long(C) -> write(Stream, "long(car_"), write(Stream,Z), write(Stream,N), write(Stream,")."); write(Stream,"")),
+                    (short(C) -> write(Stream, "short(car_"), write(Stream,Z), write(Stream,N), write(Stream,")."); write(Stream,"")),
+                    (no_roof(C) -> write(Stream, "roof(car_"), write(Stream,Z), write(Stream,N), write(Stream,",no_roof)."); write(Stream,"")),
+                    (flat_roof(C) -> write(Stream, "roof(car_"), write(Stream,Z), write(Stream,N), write(Stream,",flat_roof)."); write(Stream,"")),
+                    (peaked_roof(C) -> write(Stream, "roof(car_"), write(Stream,Z), write(Stream,N), write(Stream,",peaked_roof)."); write(Stream,"")),
+                    (arc_roof(C) -> write(Stream, "roof(car_"), write(Stream,Z), write(Stream,N), write(Stream,",arc_roof)."); write(Stream,"")),
+                    (circle_load(C),one_load(C) -> write(Stream, "load(car_"), write(Stream,Z), write(Stream,N), write(Stream,",circle_load,1)."); write(Stream,"")),
+                    (circle_load(C),two_load(C) -> write(Stream, "load(car_"), write(Stream,Z), write(Stream,N), write(Stream,",circle_load,2)."); write(Stream,"")),
+                    (circle_load(C),three_load(C) -> write(Stream, "load(car_"), write(Stream,Z), write(Stream,N), write(Stream,",circle_load,3)."); write(Stream,"")),
+                    (rectangle_load(C),one_load(C) -> write(Stream, "load(car_"), write(Stream,Z), write(Stream,N), write(Stream,",rectangle_load,1)."); write(Stream,"")),
+                    (rectangle_load(C),two_load(C) -> write(Stream, "load(car_"), write(Stream,Z), write(Stream,N), write(Stream,",rectangle_load,2)."); write(Stream,"")),
+                    (rectangle_load(C),three_load(C) -> write(Stream, "load(car_"), write(Stream,Z), write(Stream,N), write(Stream,",rectangle_load,3)."); write(Stream,"")),
+                    (triangle_load(C),one_load(C) -> write(Stream, "load(car_"), write(Stream,Z), write(Stream,N), write(Stream,",triangle_load,1)."); write(Stream,"")),
+                    (triangle_load(C),two_load(C) -> write(Stream, "load(car_"), write(Stream,Z), write(Stream,N), write(Stream,",triangle_load,2)."); write(Stream,"")),
+                    (triangle_load(C),three_load(C) -> write(Stream, "load(car_"), write(Stream,Z), write(Stream,N), write(Stream,",triangle_load,3)."); write(Stream,"")),
                    nl(Stream),
                    close(Stream),
-                   N is N + 1,
-                   write(N).
-                   %examine((Cs),N,Z)
+                   N1 is N + 1,
+                   examine((Cs),N1,Z).
 
+examine2(1,_).
 
-
+examine2(N,Z) :-
+               N1 is N - 1,
+               open('trains_aleph.txt', append, Stream),
+               write(Stream, "in_front(car_"), write(Stream,Z), write(Stream,N1), write(Stream, ",car_"), write(Stream,Z), write(Stream,N), write(Stream,")."),
+               nl(Stream),
+               close(Stream),
+               examine2(N1,Z).
+                    
 
 has_car(T,C) :- member(C,T).
 
