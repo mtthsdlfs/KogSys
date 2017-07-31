@@ -11,7 +11,7 @@ examine(([]),N,Z) :-
                    examine2(N1,Z).
 
 examine(([C|Cs]),N,Z):-
-                   open('trains_aleph_2.txt',append,Stream),
+                   open('trains_aleph_rek_west.txt',append,Stream),
                      write(Stream, "has_car(west"), write(Stream,Z), write(Stream,",car_"), write(Stream,Z), write(Stream,N), write(Stream,")."),nl(Stream),
                     (rectangle(C) -> write(Stream, "shape(car_"), write(Stream,Z), write(Stream,N), write(Stream,",rectangle). "); write(Stream,"")),
                     (ellipse(C) -> write(Stream, "shape(car_"), write(Stream,Z), write(Stream,N), write(Stream,",ellipse). "); write(Stream,"")),

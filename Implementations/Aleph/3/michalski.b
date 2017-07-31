@@ -2,18 +2,8 @@
 % Date: 11-Jul-17
 
 
-% Each first five trains from West and Eastbound Train Generator
+% Each first ten trains from West and Eastbound Train Generator with slight amendment to create wider range of combinations
 
-% Simple illustration of the use of recording good clauses found
-%       during the search using the Michalski's trains problem.
-% This will store a Prolog encoding of clauses above minscore
-% (optionally in the file specified by goodfile)
-% To run do the following:
-%       a. Load Aleph
-%       b. read_all(train).
-%       c. sat(1).
-%       d. reduce.
-%       e. show(good).
 
 :- set(i,2).
 :- set(good,true).
@@ -36,6 +26,9 @@
 :- determination(eastbound/1,infront/3).
 
 % type definitions
+
+:- discontiguous shape/2.
+
 car(car_11).  car(car_12).  car(car_13).  car(car_14).
 car(car_21).  car(car_22).  car(car_23).
 car(car_31).  car(car_32).  car(car_33).  car(car_34).

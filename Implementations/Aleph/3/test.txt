@@ -1,0 +1,44 @@
+has_car(east8,car_81).
+shape(car_81,rectangle). long(car_81). roof(car_81,no_roof). load(car_81,circle_load,1). 
+has_car(east8,car_82).
+shape(car_82,rectangle). long(car_82). roof(car_82,flat_roof). load(car_82,rectangle_load,2). 
+has_car(east8,car_83).
+shape(car_83,rectangle). short(car_83). roof(car_83,no_roof). load(car_83,triangle_load,1). 
+infront(east8,car_82,car_83).
+infront(east8,car_81,car_82).
+
+has_car(east9,car_91).
+shape(car_91,rectangle). long(car_91). roof(car_91,flat_roof). load(car_91,rectangle_load,3). 
+has_car(east9,car_92).
+shape(car_92,bucket). short(car_92). roof(car_92,no_roof). load(car_92,triangle_load,1). 
+has_car(east9,car_93).
+shape(car_93,u_shaped). short(car_93). roof(car_93,no_roof). load(car_93,triangle_load,1). 
+infront(east9,car_92,car_93).
+infront(east9,car_91,car_92).
+
+has_car(east10,car_101).
+shape(car_101,rectangle). long(car_101). roof(car_101,flat_roof). load(car_101,rectangle_load,2). 
+has_car(east10,car_102).
+shape(car_102,bucket). short(car_102). roof(car_102,no_roof). load(car_102,triangle_load,1). 
+has_car(east10,car_103).
+shape(car_103,bucket). short(car_103). roof(car_103,no_roof). load(car_103,circle_load,1). 
+has_car(east10,car_104).
+shape(car_104,hexagon). short(car_104). roof(car_104,flat_roof). load(car_104,rectangle_load,2). 
+infront(east10,car_103,car_104).
+infront(east10,car_102,car_103).
+infront(east10,car_101,car_102).
+
+has_car(west17,car_171).
+shape(car_171,u_shaped). short(car_171). roof(car_171,no_roof). load(car_171,triangle_load,1). 
+has_car(west17,car_172).
+shape(car_172,u_shaped). short(car_172). roof(car_172,no_roof). load(car_172,circle_load,1). 
+has_car(west17,car_173).
+shape(car_173,rectangle). long(car_173). roof(car_173,no_roof). load(car_173,triangle_load,1). 
+infront(west17,car_172,car_173).
+infront(west17,car_171,car_172).
+
+has_car(west18,car_181).
+shape(car_181,ellipse). short(car_181). roof(car_181,arc_roof). load(car_181,triangle_load,2). 
+has_car(west18,car_182).
+shape(car_182,rectangle). short(car_182). roof(car_182,no_roof). load(car_182,rectangle_load,2). 
+infront(west18,car_181,car_182).

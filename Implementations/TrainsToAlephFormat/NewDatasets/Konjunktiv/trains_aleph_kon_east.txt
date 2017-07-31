@@ -1,0 +1,702 @@
+has_car(east1,car_11).
+shape(car_11,rectangle). long(car_11). roof(car_11,flat_roof). load(car_11,triangle_load,3). 
+has_car(east1,car_12).
+shape(car_12,hexagon). short(car_12). roof(car_12,flat_roof). load(car_12,triangle_load,1). 
+has_car(east1,car_13).
+shape(car_13,ellipse). short(car_13). roof(car_13,arc_roof). load(car_13,triangle_load,1). 
+has_car(east2,car_21).
+shape(car_21,rectangle). long(car_21). roof(car_21,flat_roof). load(car_21,triangle_load,3). 
+has_car(east2,car_22).
+shape(car_22,ellipse). short(car_22). roof(car_22,arc_roof). load(car_22,rectangle_load,1). 
+has_car(east2,car_23).
+shape(car_23,ellipse). short(car_23). roof(car_23,arc_roof). load(car_23,triangle_load,2). 
+has_car(east2,car_24).
+shape(car_24,rectangle). long(car_24). roof(car_24,no_roof). load(car_24,circle_load,1). 
+has_car(east3,car_31).
+shape(car_31,rectangle). long(car_31). roof(car_31,no_roof). load(car_31,triangle_load,1). 
+has_car(east3,car_32).
+shape(car_32,rectangle). long(car_32). roof(car_32,no_roof). load(car_32,triangle_load,2). 
+has_car(east3,car_33).
+shape(car_33,ellipse). short(car_33). roof(car_33,arc_roof). load(car_33,triangle_load,1). 
+has_car(east3,car_34).
+shape(car_34,bucket). short(car_34). roof(car_34,no_roof). load(car_34,rectangle_load,1). 
+has_car(east4,car_41).
+shape(car_41,ellipse). short(car_41). roof(car_41,arc_roof). load(car_41,triangle_load,1). 
+has_car(east4,car_42).
+shape(car_42,rectangle). long(car_42). roof(car_42,no_roof). load(car_42,triangle_load,1). 
+has_car(east4,car_43).
+shape(car_43,ellipse). short(car_43). roof(car_43,arc_roof). load(car_43,triangle_load,1). 
+has_car(east4,car_44).
+shape(car_44,bucket). short(car_44). roof(car_44,no_roof). load(car_44,triangle_load,1). 
+has_car(east5,car_51).
+shape(car_51,rectangle). long(car_51). roof(car_51,flat_roof). load(car_51,triangle_load,1). 
+has_car(east5,car_52).
+shape(car_52,rectangle). long(car_52). roof(car_52,no_roof). load(car_52,rectangle_load,1). 
+has_car(east5,car_53).
+shape(car_53,ellipse). short(car_53). roof(car_53,arc_roof). load(car_53,triangle_load,1). 
+has_car(east5,car_54).
+shape(car_54,rectangle). long(car_54). roof(car_54,no_roof). load(car_54,triangle_load,1). 
+has_car(east6,car_61).
+shape(car_61,u_shaped). short(car_61). roof(car_61,no_roof). load(car_61,triangle_load,2). 
+has_car(east6,car_62).
+shape(car_62,ellipse). short(car_62). roof(car_62,arc_roof). load(car_62,triangle_load,1). 
+has_car(east6,car_63).
+shape(car_63,ellipse). short(car_63). roof(car_63,arc_roof). load(car_63,triangle_load,2). 
+has_car(east7,car_71).
+shape(car_71,rectangle). short(car_71). roof(car_71,peaked_roof). load(car_71,triangle_load,1). 
+has_car(east7,car_72).
+shape(car_72,bucket). short(car_72). roof(car_72,no_roof). load(car_72,rectangle_load,1). 
+has_car(east7,car_73).
+shape(car_73,ellipse). short(car_73). roof(car_73,arc_roof). load(car_73,triangle_load,1). 
+has_car(east7,car_74).
+shape(car_74,hexagon). short(car_74). roof(car_74,flat_roof). load(car_74,circle_load,2). 
+has_car(east8,car_81).
+shape(car_81,rectangle). long(car_81). roof(car_81,flat_roof). load(car_81,triangle_load,3). 
+has_car(east8,car_82).
+shape(car_82,rectangle). long(car_82). roof(car_82,flat_roof). load(car_82,triangle_load,1). 
+has_car(east8,car_83).
+shape(car_83,ellipse). short(car_83). roof(car_83,arc_roof). load(car_83,triangle_load,1). 
+has_car(east9,car_91).
+shape(car_91,rectangle). long(car_91). roof(car_91,no_roof). load(car_91,triangle_load,1). 
+has_car(east9,car_92).
+shape(car_92,rectangle). long(car_92). roof(car_92,no_roof). load(car_92,rectangle_load,3). 
+has_car(east9,car_93).
+shape(car_93,ellipse). short(car_93). roof(car_93,arc_roof). load(car_93,triangle_load,2). 
+has_car(east10,car_101).
+shape(car_101,ellipse). short(car_101). roof(car_101,arc_roof). load(car_101,triangle_load,1). 
+has_car(east10,car_102).
+shape(car_102,rectangle). long(car_102). roof(car_102,no_roof). load(car_102,circle_load,3). 
+has_car(east10,car_103).
+shape(car_103,ellipse). short(car_103). roof(car_103,arc_roof). load(car_103,triangle_load,1). 
+has_car(east11,car_111).
+shape(car_111,u_shaped). short(car_111). roof(car_111,no_roof). load(car_111,triangle_load,1). 
+has_car(east11,car_112).
+shape(car_112,rectangle). long(car_112). roof(car_112,no_roof). load(car_112,rectangle_load,2). 
+has_car(east11,car_113).
+shape(car_113,ellipse). short(car_113). roof(car_113,arc_roof). load(car_113,triangle_load,1). 
+has_car(east11,car_114).
+shape(car_114,rectangle). long(car_114). roof(car_114,no_roof). load(car_114,circle_load,2). 
+has_car(east12,car_121).
+shape(car_121,bucket). short(car_121). roof(car_121,no_roof). load(car_121,triangle_load,1). 
+has_car(east12,car_122).
+shape(car_122,rectangle). long(car_122). roof(car_122,no_roof). load(car_122,triangle_load,3). 
+has_car(east12,car_123).
+shape(car_123,ellipse). short(car_123). roof(car_123,arc_roof). load(car_123,triangle_load,2). 
+has_car(east12,car_124).
+shape(car_124,rectangle). long(car_124). roof(car_124,no_roof). load(car_124,rectangle_load,2). 
+has_car(east13,car_131).
+shape(car_131,hexagon). short(car_131). roof(car_131,flat_roof). load(car_131,triangle_load,2). 
+has_car(east13,car_132).
+shape(car_132,hexagon). short(car_132). roof(car_132,flat_roof). load(car_132,triangle_load,1). 
+has_car(east13,car_133).
+shape(car_133,ellipse). short(car_133). roof(car_133,arc_roof). load(car_133,triangle_load,1). 
+has_car(east13,car_134).
+shape(car_134,ellipse). short(car_134). roof(car_134,arc_roof). load(car_134,rectangle_load,1). 
+has_car(east14,car_141).
+shape(car_141,bucket). short(car_141). roof(car_141,no_roof). load(car_141,triangle_load,2). 
+has_car(east14,car_142).
+shape(car_142,rectangle). long(car_142). roof(car_142,flat_roof). load(car_142,circle_load,3). 
+has_car(east14,car_143).
+shape(car_143,ellipse). short(car_143). roof(car_143,arc_roof). load(car_143,triangle_load,1). 
+has_car(east14,car_144).
+shape(car_144,ellipse). short(car_144). roof(car_144,arc_roof). load(car_144,circle_load,1). 
+has_car(east15,car_151).
+shape(car_151,rectangle). long(car_151). roof(car_151,no_roof). load(car_151,triangle_load,1). 
+has_car(east15,car_152).
+shape(car_152,hexagon). short(car_152). roof(car_152,flat_roof). load(car_152,triangle_load,2). 
+has_car(east15,car_153).
+shape(car_153,ellipse). short(car_153). roof(car_153,arc_roof). load(car_153,triangle_load,2). 
+has_car(east15,car_154).
+shape(car_154,rectangle). long(car_154). roof(car_154,no_roof). load(car_154,triangle_load,3). 
+has_car(east16,car_161).
+shape(car_161,rectangle). long(car_161). roof(car_161,no_roof). load(car_161,triangle_load,1). 
+has_car(east16,car_162).
+shape(car_162,rectangle). long(car_162). roof(car_162,no_roof). load(car_162,rectangle_load,2). 
+has_car(east16,car_163).
+shape(car_163,ellipse). short(car_163). roof(car_163,arc_roof). load(car_163,triangle_load,2). 
+has_car(east16,car_164).
+shape(car_164,u_shaped). short(car_164). roof(car_164,no_roof). load(car_164,triangle_load,1). 
+has_car(east17,car_171).
+shape(car_171,hexagon). short(car_171). roof(car_171,flat_roof). load(car_171,triangle_load,2). 
+has_car(east17,car_172).
+shape(car_172,rectangle). long(car_172). roof(car_172,no_roof). load(car_172,circle_load,2). 
+has_car(east17,car_173).
+shape(car_173,ellipse). short(car_173). roof(car_173,arc_roof). load(car_173,triangle_load,2). 
+has_car(east18,car_181).
+shape(car_181,rectangle). long(car_181). roof(car_181,flat_roof). load(car_181,triangle_load,3). 
+has_car(east18,car_182).
+shape(car_182,rectangle). long(car_182). roof(car_182,flat_roof). load(car_182,rectangle_load,2). 
+has_car(east18,car_183).
+shape(car_183,ellipse). short(car_183). roof(car_183,arc_roof). load(car_183,triangle_load,2). 
+has_car(east18,car_184).
+shape(car_184,rectangle). long(car_184). roof(car_184,flat_roof). load(car_184,triangle_load,1). 
+has_car(east19,car_191).
+shape(car_191,rectangle). short(car_191). roof(car_191,peaked_roof). load(car_191,triangle_load,1). 
+has_car(east19,car_192).
+shape(car_192,u_shaped). short(car_192). roof(car_192,no_roof). load(car_192,triangle_load,2). 
+has_car(east19,car_193).
+shape(car_193,ellipse). short(car_193). roof(car_193,arc_roof). load(car_193,triangle_load,2). 
+has_car(east19,car_194).
+shape(car_194,bucket). short(car_194). roof(car_194,no_roof). load(car_194,triangle_load,1). 
+has_car(east20,car_201).
+shape(car_201,rectangle). long(car_201). roof(car_201,flat_roof). load(car_201,triangle_load,2). 
+has_car(east20,car_202).
+shape(car_202,rectangle). long(car_202). roof(car_202,flat_roof). load(car_202,circle_load,2). 
+has_car(east20,car_203).
+shape(car_203,ellipse). short(car_203). roof(car_203,arc_roof). load(car_203,triangle_load,2). 
+has_car(east20,car_204).
+shape(car_204,bucket). short(car_204). roof(car_204,no_roof). load(car_204,circle_load,2). 
+has_car(east21,car_211).
+shape(car_211,hexagon). short(car_211). roof(car_211,flat_roof). load(car_211,triangle_load,2). 
+has_car(east21,car_212).
+shape(car_212,hexagon). short(car_212). roof(car_212,flat_roof). load(car_212,triangle_load,2). 
+has_car(east21,car_213).
+shape(car_213,ellipse). short(car_213). roof(car_213,arc_roof). load(car_213,triangle_load,1). 
+has_car(east22,car_221).
+shape(car_221,bucket). short(car_221). roof(car_221,no_roof). load(car_221,triangle_load,2). 
+has_car(east22,car_222).
+shape(car_222,rectangle). long(car_222). roof(car_222,no_roof). load(car_222,circle_load,3). 
+has_car(east22,car_223).
+shape(car_223,ellipse). short(car_223). roof(car_223,arc_roof). load(car_223,triangle_load,2). 
+has_car(east23,car_231).
+shape(car_231,rectangle). long(car_231). roof(car_231,flat_roof). load(car_231,triangle_load,2). 
+has_car(east23,car_232).
+shape(car_232,bucket). short(car_232). roof(car_232,no_roof). load(car_232,rectangle_load,2). 
+has_car(east23,car_233).
+shape(car_233,ellipse). short(car_233). roof(car_233,arc_roof). load(car_233,triangle_load,2). 
+has_car(east24,car_241).
+shape(car_241,rectangle). long(car_241). roof(car_241,no_roof). load(car_241,triangle_load,3). 
+has_car(east24,car_242).
+shape(car_242,rectangle). short(car_242). roof(car_242,peaked_roof). load(car_242,rectangle_load,2). 
+has_car(east24,car_243).
+shape(car_243,ellipse). short(car_243). roof(car_243,arc_roof). load(car_243,triangle_load,2). 
+has_car(east24,car_244).
+shape(car_244,rectangle). long(car_244). roof(car_244,no_roof). load(car_244,triangle_load,2). 
+has_car(east25,car_251).
+shape(car_251,rectangle). long(car_251). roof(car_251,no_roof). load(car_251,triangle_load,1). 
+has_car(east25,car_252).
+shape(car_252,rectangle). long(car_252). roof(car_252,no_roof). load(car_252,rectangle_load,3). 
+has_car(east25,car_253).
+shape(car_253,ellipse). short(car_253). roof(car_253,arc_roof). load(car_253,triangle_load,2). 
+has_car(east25,car_254).
+shape(car_254,rectangle). long(car_254). roof(car_254,flat_roof). load(car_254,circle_load,2). 
+has_car(east26,car_261).
+shape(car_261,rectangle). short(car_261). roof(car_261,flat_roof). load(car_261,triangle_load,1). 
+has_car(east26,car_262).
+shape(car_262,rectangle). long(car_262). roof(car_262,flat_roof). load(car_262,rectangle_load,1). 
+has_car(east26,car_263).
+shape(car_263,ellipse). short(car_263). roof(car_263,arc_roof). load(car_263,triangle_load,2). 
+has_car(east26,car_264).
+shape(car_264,rectangle). short(car_264). roof(car_264,peaked_roof). load(car_264,rectangle_load,1). 
+has_car(east27,car_271).
+shape(car_271,u_shaped). short(car_271). roof(car_271,no_roof). load(car_271,triangle_load,1). 
+has_car(east27,car_272).
+shape(car_272,rectangle). long(car_272). roof(car_272,flat_roof). load(car_272,circle_load,1). 
+has_car(east27,car_273).
+shape(car_273,ellipse). short(car_273). roof(car_273,arc_roof). load(car_273,triangle_load,1). 
+has_car(east28,car_281).
+shape(car_281,ellipse). short(car_281). roof(car_281,arc_roof). load(car_281,triangle_load,2). 
+has_car(east28,car_282).
+shape(car_282,rectangle). long(car_282). roof(car_282,flat_roof). load(car_282,circle_load,3). 
+has_car(east28,car_283).
+shape(car_283,ellipse). short(car_283). roof(car_283,arc_roof). load(car_283,triangle_load,1). 
+has_car(east29,car_291).
+shape(car_291,hexagon). short(car_291). roof(car_291,flat_roof). load(car_291,triangle_load,2). 
+has_car(east29,car_292).
+shape(car_292,rectangle). long(car_292). roof(car_292,no_roof). load(car_292,triangle_load,3). 
+has_car(east29,car_293).
+shape(car_293,ellipse). short(car_293). roof(car_293,arc_roof). load(car_293,triangle_load,1). 
+has_car(east30,car_301).
+shape(car_301,rectangle). long(car_301). roof(car_301,no_roof). load(car_301,triangle_load,3). 
+has_car(east30,car_302).
+shape(car_302,rectangle). long(car_302). roof(car_302,no_roof). load(car_302,rectangle_load,1). 
+has_car(east30,car_303).
+shape(car_303,ellipse). short(car_303). roof(car_303,arc_roof). load(car_303,triangle_load,1). 
+has_car(east30,car_304).
+shape(car_304,bucket). short(car_304). roof(car_304,no_roof). load(car_304,rectangle_load,1). 
+has_car(east31,car_311).
+shape(car_311,ellipse). short(car_311). roof(car_311,arc_roof). load(car_311,triangle_load,1). 
+has_car(east31,car_312).
+shape(car_312,u_shaped). short(car_312). roof(car_312,no_roof). load(car_312,circle_load,2). 
+has_car(east31,car_313).
+shape(car_313,ellipse). short(car_313). roof(car_313,arc_roof). load(car_313,triangle_load,1). 
+has_car(east31,car_314).
+shape(car_314,rectangle). long(car_314). roof(car_314,flat_roof). load(car_314,circle_load,1). 
+has_car(east32,car_321).
+shape(car_321,bucket). short(car_321). roof(car_321,no_roof). load(car_321,triangle_load,2). 
+has_car(east32,car_322).
+shape(car_322,hexagon). short(car_322). roof(car_322,flat_roof). load(car_322,rectangle_load,1). 
+has_car(east32,car_323).
+shape(car_323,ellipse). short(car_323). roof(car_323,arc_roof). load(car_323,triangle_load,1). 
+has_car(east33,car_331).
+shape(car_331,u_shaped). short(car_331). roof(car_331,no_roof). load(car_331,triangle_load,2). 
+has_car(east33,car_332).
+shape(car_332,rectangle). long(car_332). roof(car_332,flat_roof). load(car_332,rectangle_load,1). 
+has_car(east33,car_333).
+shape(car_333,ellipse). short(car_333). roof(car_333,arc_roof). load(car_333,triangle_load,2). 
+has_car(east34,car_341).
+shape(car_341,rectangle). long(car_341). roof(car_341,no_roof). load(car_341,triangle_load,1). 
+has_car(east34,car_342).
+shape(car_342,rectangle). long(car_342). roof(car_342,no_roof). load(car_342,rectangle_load,2). 
+has_car(east34,car_343).
+shape(car_343,ellipse). short(car_343). roof(car_343,arc_roof). load(car_343,triangle_load,2). 
+has_car(east34,car_344).
+shape(car_344,rectangle). long(car_344). roof(car_344,no_roof). load(car_344,triangle_load,1). 
+has_car(east35,car_351).
+shape(car_351,rectangle). long(car_351). roof(car_351,no_roof). load(car_351,triangle_load,1). 
+has_car(east35,car_352).
+shape(car_352,rectangle). long(car_352). roof(car_352,flat_roof). load(car_352,rectangle_load,2). 
+has_car(east35,car_353).
+shape(car_353,ellipse). short(car_353). roof(car_353,arc_roof). load(car_353,triangle_load,2). 
+has_car(east36,car_361).
+shape(car_361,bucket). short(car_361). roof(car_361,no_roof). load(car_361,triangle_load,2). 
+has_car(east36,car_362).
+shape(car_362,ellipse). short(car_362). roof(car_362,arc_roof). load(car_362,rectangle_load,2). 
+has_car(east36,car_363).
+shape(car_363,ellipse). short(car_363). roof(car_363,arc_roof). load(car_363,triangle_load,2). 
+has_car(east36,car_364).
+shape(car_364,ellipse). short(car_364). roof(car_364,arc_roof). load(car_364,circle_load,1). 
+has_car(east37,car_371).
+shape(car_371,rectangle). long(car_371). roof(car_371,flat_roof). load(car_371,triangle_load,3). 
+has_car(east37,car_372).
+shape(car_372,rectangle). long(car_372). roof(car_372,flat_roof). load(car_372,circle_load,2). 
+has_car(east37,car_373).
+shape(car_373,ellipse). short(car_373). roof(car_373,arc_roof). load(car_373,triangle_load,2). 
+has_car(east37,car_374).
+shape(car_374,rectangle). long(car_374). roof(car_374,flat_roof). load(car_374,triangle_load,3). 
+has_car(east38,car_381).
+shape(car_381,bucket). short(car_381). roof(car_381,no_roof). load(car_381,triangle_load,2). 
+has_car(east38,car_382).
+shape(car_382,rectangle). long(car_382). roof(car_382,no_roof). load(car_382,circle_load,1). 
+has_car(east38,car_383).
+shape(car_383,ellipse). short(car_383). roof(car_383,arc_roof). load(car_383,triangle_load,2). 
+has_car(east38,car_384).
+shape(car_384,u_shaped). short(car_384). roof(car_384,no_roof). load(car_384,triangle_load,1). 
+has_car(east39,car_391).
+shape(car_391,rectangle). long(car_391). roof(car_391,no_roof). load(car_391,triangle_load,2). 
+has_car(east39,car_392).
+shape(car_392,rectangle). long(car_392). roof(car_392,no_roof). load(car_392,triangle_load,2). 
+has_car(east39,car_393).
+shape(car_393,ellipse). short(car_393). roof(car_393,arc_roof). load(car_393,triangle_load,1). 
+has_car(east40,car_401).
+shape(car_401,rectangle). long(car_401). roof(car_401,flat_roof). load(car_401,triangle_load,2). 
+has_car(east40,car_402).
+shape(car_402,ellipse). short(car_402). roof(car_402,arc_roof). load(car_402,circle_load,1). 
+has_car(east40,car_403).
+shape(car_403,ellipse). short(car_403). roof(car_403,arc_roof). load(car_403,triangle_load,1). 
+has_car(east41,car_411).
+shape(car_411,ellipse). short(car_411). roof(car_411,arc_roof). load(car_411,triangle_load,2). 
+has_car(east41,car_412).
+shape(car_412,rectangle). long(car_412). roof(car_412,flat_roof). load(car_412,circle_load,2). 
+has_car(east41,car_413).
+shape(car_413,ellipse). short(car_413). roof(car_413,arc_roof). load(car_413,triangle_load,2). 
+has_car(east41,car_414).
+shape(car_414,bucket). short(car_414). roof(car_414,no_roof). load(car_414,rectangle_load,2). 
+has_car(east42,car_421).
+shape(car_421,rectangle). long(car_421). roof(car_421,flat_roof). load(car_421,triangle_load,1). 
+has_car(east42,car_422).
+shape(car_422,ellipse). short(car_422). roof(car_422,arc_roof). load(car_422,triangle_load,1). 
+has_car(east42,car_423).
+shape(car_423,ellipse). short(car_423). roof(car_423,arc_roof). load(car_423,triangle_load,2). 
+has_car(east42,car_424).
+shape(car_424,u_shaped). short(car_424). roof(car_424,no_roof). load(car_424,rectangle_load,1). 
+has_car(east43,car_431).
+shape(car_431,ellipse). short(car_431). roof(car_431,arc_roof). load(car_431,triangle_load,2). 
+has_car(east43,car_432).
+shape(car_432,hexagon). short(car_432). roof(car_432,flat_roof). load(car_432,circle_load,1). 
+has_car(east43,car_433).
+shape(car_433,ellipse). short(car_433). roof(car_433,arc_roof). load(car_433,triangle_load,2). 
+has_car(east43,car_434).
+shape(car_434,u_shaped). short(car_434). roof(car_434,no_roof). load(car_434,triangle_load,1). 
+has_car(east44,car_441).
+shape(car_441,u_shaped). short(car_441). roof(car_441,no_roof). load(car_441,triangle_load,1). 
+has_car(east44,car_442).
+shape(car_442,rectangle). long(car_442). roof(car_442,no_roof). load(car_442,triangle_load,3). 
+has_car(east44,car_443).
+shape(car_443,ellipse). short(car_443). roof(car_443,arc_roof). load(car_443,triangle_load,1). 
+has_car(east44,car_444).
+shape(car_444,rectangle). long(car_444). roof(car_444,flat_roof). load(car_444,triangle_load,2). 
+has_car(east45,car_451).
+shape(car_451,bucket). short(car_451). roof(car_451,no_roof). load(car_451,triangle_load,1). 
+has_car(east45,car_452).
+shape(car_452,rectangle). long(car_452). roof(car_452,no_roof). load(car_452,circle_load,3). 
+has_car(east45,car_453).
+shape(car_453,ellipse). short(car_453). roof(car_453,arc_roof). load(car_453,triangle_load,2). 
+has_car(east46,car_461).
+shape(car_461,bucket). short(car_461). roof(car_461,no_roof). load(car_461,triangle_load,1). 
+has_car(east46,car_462).
+shape(car_462,ellipse). short(car_462). roof(car_462,arc_roof). load(car_462,rectangle_load,2). 
+has_car(east46,car_463).
+shape(car_463,ellipse). short(car_463). roof(car_463,arc_roof). load(car_463,triangle_load,2). 
+has_car(east47,car_471).
+shape(car_471,bucket). short(car_471). roof(car_471,no_roof). load(car_471,triangle_load,1). 
+has_car(east47,car_472).
+shape(car_472,rectangle). long(car_472). roof(car_472,flat_roof). load(car_472,triangle_load,3). 
+has_car(east47,car_473).
+shape(car_473,ellipse). short(car_473). roof(car_473,arc_roof). load(car_473,triangle_load,1). 
+has_car(east48,car_481).
+shape(car_481,rectangle). long(car_481). roof(car_481,no_roof). load(car_481,triangle_load,2). 
+has_car(east48,car_482).
+shape(car_482,rectangle). short(car_482). roof(car_482,peaked_roof). load(car_482,rectangle_load,2). 
+has_car(east48,car_483).
+shape(car_483,ellipse). short(car_483). roof(car_483,arc_roof). load(car_483,triangle_load,1). 
+has_car(east48,car_484).
+shape(car_484,ellipse). short(car_484). roof(car_484,arc_roof). load(car_484,triangle_load,2). 
+has_car(east49,car_491).
+shape(car_491,rectangle). long(car_491). roof(car_491,no_roof). load(car_491,triangle_load,2). 
+has_car(east49,car_492).
+shape(car_492,rectangle). long(car_492). roof(car_492,no_roof). load(car_492,circle_load,3). 
+has_car(east49,car_493).
+shape(car_493,ellipse). short(car_493). roof(car_493,arc_roof). load(car_493,triangle_load,1). 
+has_car(east49,car_494).
+shape(car_494,bucket). short(car_494). roof(car_494,no_roof). load(car_494,triangle_load,1). 
+has_car(east50,car_501).
+shape(car_501,rectangle). long(car_501). roof(car_501,no_roof). load(car_501,triangle_load,3). 
+has_car(east50,car_502).
+shape(car_502,u_shaped). short(car_502). roof(car_502,no_roof). load(car_502,rectangle_load,2). 
+has_car(east50,car_503).
+shape(car_503,ellipse). short(car_503). roof(car_503,arc_roof). load(car_503,triangle_load,2). 
+has_car(east51,car_511).
+shape(car_511,rectangle). short(car_511). roof(car_511,no_roof). load(car_511,triangle_load,2). 
+has_car(east51,car_512).
+shape(car_512,rectangle). long(car_512). roof(car_512,no_roof). load(car_512,triangle_load,1). 
+has_car(east51,car_513).
+shape(car_513,ellipse). short(car_513). roof(car_513,arc_roof). load(car_513,triangle_load,2). 
+has_car(east52,car_521).
+shape(car_521,rectangle). long(car_521). roof(car_521,no_roof). load(car_521,triangle_load,1). 
+has_car(east52,car_522).
+shape(car_522,rectangle). long(car_522). roof(car_522,flat_roof). load(car_522,circle_load,2). 
+has_car(east52,car_523).
+shape(car_523,ellipse). short(car_523). roof(car_523,arc_roof). load(car_523,triangle_load,2). 
+has_car(east53,car_531).
+shape(car_531,rectangle). long(car_531). roof(car_531,flat_roof). load(car_531,triangle_load,1). 
+has_car(east53,car_532).
+shape(car_532,hexagon). short(car_532). roof(car_532,flat_roof). load(car_532,circle_load,2). 
+has_car(east53,car_533).
+shape(car_533,ellipse). short(car_533). roof(car_533,arc_roof). load(car_533,triangle_load,2). 
+has_car(east54,car_541).
+shape(car_541,u_shaped). short(car_541). roof(car_541,no_roof). load(car_541,triangle_load,2). 
+has_car(east54,car_542).
+shape(car_542,rectangle). long(car_542). roof(car_542,no_roof). load(car_542,rectangle_load,2). 
+has_car(east54,car_543).
+shape(car_543,ellipse). short(car_543). roof(car_543,arc_roof). load(car_543,triangle_load,1). 
+has_car(east54,car_544).
+shape(car_544,ellipse). short(car_544). roof(car_544,arc_roof). load(car_544,rectangle_load,2). 
+has_car(east55,car_551).
+shape(car_551,ellipse). short(car_551). roof(car_551,arc_roof). load(car_551,triangle_load,2). 
+has_car(east55,car_552).
+shape(car_552,rectangle). long(car_552). roof(car_552,flat_roof). load(car_552,rectangle_load,1). 
+has_car(east55,car_553).
+shape(car_553,ellipse). short(car_553). roof(car_553,arc_roof). load(car_553,triangle_load,2). 
+has_car(east56,car_561).
+shape(car_561,rectangle). short(car_561). roof(car_561,no_roof). load(car_561,triangle_load,2). 
+has_car(east56,car_562).
+shape(car_562,rectangle). long(car_562). roof(car_562,flat_roof). load(car_562,triangle_load,1). 
+has_car(east56,car_563).
+shape(car_563,ellipse). short(car_563). roof(car_563,arc_roof). load(car_563,triangle_load,2). 
+has_car(east57,car_571).
+shape(car_571,ellipse). short(car_571). roof(car_571,arc_roof). load(car_571,triangle_load,1). 
+has_car(east57,car_572).
+shape(car_572,rectangle). long(car_572). roof(car_572,no_roof). load(car_572,triangle_load,2). 
+has_car(east57,car_573).
+shape(car_573,ellipse). short(car_573). roof(car_573,arc_roof). load(car_573,triangle_load,1). 
+has_car(east58,car_581).
+shape(car_581,rectangle). long(car_581). roof(car_581,flat_roof). load(car_581,triangle_load,2). 
+has_car(east58,car_582).
+shape(car_582,rectangle). long(car_582). roof(car_582,no_roof). load(car_582,circle_load,1). 
+has_car(east58,car_583).
+shape(car_583,ellipse). short(car_583). roof(car_583,arc_roof). load(car_583,triangle_load,1). 
+has_car(east59,car_591).
+shape(car_591,rectangle). short(car_591). roof(car_591,peaked_roof). load(car_591,triangle_load,1). 
+has_car(east59,car_592).
+shape(car_592,ellipse). short(car_592). roof(car_592,arc_roof). load(car_592,triangle_load,2). 
+has_car(east59,car_593).
+shape(car_593,ellipse). short(car_593). roof(car_593,arc_roof). load(car_593,triangle_load,2). 
+has_car(east60,car_601).
+shape(car_601,ellipse). short(car_601). roof(car_601,arc_roof). load(car_601,triangle_load,1). 
+has_car(east60,car_602).
+shape(car_602,u_shaped). short(car_602). roof(car_602,no_roof). load(car_602,circle_load,1). 
+has_car(east60,car_603).
+shape(car_603,ellipse). short(car_603). roof(car_603,arc_roof). load(car_603,triangle_load,2). 
+has_car(east60,car_604).
+shape(car_604,u_shaped). short(car_604). roof(car_604,no_roof). load(car_604,circle_load,2). 
+has_car(east61,car_611).
+shape(car_611,rectangle). long(car_611). roof(car_611,flat_roof). load(car_611,triangle_load,1). 
+has_car(east61,car_612).
+shape(car_612,rectangle). long(car_612). roof(car_612,no_roof). load(car_612,triangle_load,3). 
+has_car(east61,car_613).
+shape(car_613,ellipse). short(car_613). roof(car_613,arc_roof). load(car_613,triangle_load,2). 
+has_car(east61,car_614).
+shape(car_614,u_shaped). short(car_614). roof(car_614,no_roof). load(car_614,circle_load,1). 
+has_car(east62,car_621).
+shape(car_621,u_shaped). short(car_621). roof(car_621,no_roof). load(car_621,triangle_load,2). 
+has_car(east62,car_622).
+shape(car_622,rectangle). long(car_622). roof(car_622,no_roof). load(car_622,rectangle_load,3). 
+has_car(east62,car_623).
+shape(car_623,ellipse). short(car_623). roof(car_623,arc_roof). load(car_623,triangle_load,1). 
+has_car(east63,car_631).
+shape(car_631,hexagon). short(car_631). roof(car_631,flat_roof). load(car_631,triangle_load,2). 
+has_car(east63,car_632).
+shape(car_632,ellipse). short(car_632). roof(car_632,arc_roof). load(car_632,rectangle_load,2). 
+has_car(east63,car_633).
+shape(car_633,ellipse). short(car_633). roof(car_633,arc_roof). load(car_633,triangle_load,1). 
+has_car(east64,car_641).
+shape(car_641,ellipse). short(car_641). roof(car_641,arc_roof). load(car_641,triangle_load,1). 
+has_car(east64,car_642).
+shape(car_642,ellipse). short(car_642). roof(car_642,arc_roof). load(car_642,circle_load,2). 
+has_car(east64,car_643).
+shape(car_643,ellipse). short(car_643). roof(car_643,arc_roof). load(car_643,triangle_load,1). 
+has_car(east64,car_644).
+shape(car_644,rectangle). long(car_644). roof(car_644,no_roof). load(car_644,circle_load,2). 
+has_car(east65,car_651).
+shape(car_651,rectangle). long(car_651). roof(car_651,no_roof). load(car_651,triangle_load,1). 
+has_car(east65,car_652).
+shape(car_652,rectangle). short(car_652). roof(car_652,peaked_roof). load(car_652,triangle_load,1). 
+has_car(east65,car_653).
+shape(car_653,ellipse). short(car_653). roof(car_653,arc_roof). load(car_653,triangle_load,1). 
+has_car(east66,car_661).
+shape(car_661,rectangle). long(car_661). roof(car_661,flat_roof). load(car_661,triangle_load,1). 
+has_car(east66,car_662).
+shape(car_662,rectangle). long(car_662). roof(car_662,no_roof). load(car_662,triangle_load,3). 
+has_car(east66,car_663).
+shape(car_663,ellipse). short(car_663). roof(car_663,arc_roof). load(car_663,triangle_load,1). 
+has_car(east66,car_664).
+shape(car_664,hexagon). short(car_664). roof(car_664,flat_roof). load(car_664,circle_load,2). 
+has_car(east67,car_671).
+shape(car_671,rectangle). short(car_671). roof(car_671,flat_roof). load(car_671,triangle_load,1). 
+has_car(east67,car_672).
+shape(car_672,rectangle). long(car_672). roof(car_672,flat_roof). load(car_672,rectangle_load,2). 
+has_car(east67,car_673).
+shape(car_673,ellipse). short(car_673). roof(car_673,arc_roof). load(car_673,triangle_load,1). 
+has_car(east68,car_681).
+shape(car_681,hexagon). short(car_681). roof(car_681,flat_roof). load(car_681,triangle_load,1). 
+has_car(east68,car_682).
+shape(car_682,rectangle). long(car_682). roof(car_682,flat_roof). load(car_682,circle_load,2). 
+has_car(east68,car_683).
+shape(car_683,ellipse). short(car_683). roof(car_683,arc_roof). load(car_683,triangle_load,2). 
+has_car(east69,car_691).
+shape(car_691,hexagon). short(car_691). roof(car_691,flat_roof). load(car_691,triangle_load,1). 
+has_car(east69,car_692).
+shape(car_692,hexagon). short(car_692). roof(car_692,flat_roof). load(car_692,rectangle_load,2). 
+has_car(east69,car_693).
+shape(car_693,ellipse). short(car_693). roof(car_693,arc_roof). load(car_693,triangle_load,2). 
+has_car(east69,car_694).
+shape(car_694,rectangle). long(car_694). roof(car_694,flat_roof). load(car_694,circle_load,1). 
+has_car(east70,car_701).
+shape(car_701,rectangle). long(car_701). roof(car_701,no_roof). load(car_701,triangle_load,1). 
+has_car(east70,car_702).
+shape(car_702,rectangle). long(car_702). roof(car_702,flat_roof). load(car_702,triangle_load,2). 
+has_car(east70,car_703).
+shape(car_703,ellipse). short(car_703). roof(car_703,arc_roof). load(car_703,triangle_load,1). 
+has_car(east71,car_711).
+shape(car_711,rectangle). long(car_711). roof(car_711,no_roof). load(car_711,triangle_load,2). 
+has_car(east71,car_712).
+shape(car_712,bucket). short(car_712). roof(car_712,no_roof). load(car_712,circle_load,2). 
+has_car(east71,car_713).
+shape(car_713,ellipse). short(car_713). roof(car_713,arc_roof). load(car_713,triangle_load,2). 
+has_car(east71,car_714).
+shape(car_714,rectangle). long(car_714). roof(car_714,no_roof). load(car_714,circle_load,2). 
+has_car(east72,car_721).
+shape(car_721,rectangle). long(car_721). roof(car_721,flat_roof). load(car_721,triangle_load,3). 
+has_car(east72,car_722).
+shape(car_722,bucket). short(car_722). roof(car_722,no_roof). load(car_722,triangle_load,1). 
+has_car(east72,car_723).
+shape(car_723,ellipse). short(car_723). roof(car_723,arc_roof). load(car_723,triangle_load,1). 
+has_car(east73,car_731).
+shape(car_731,u_shaped). short(car_731). roof(car_731,no_roof). load(car_731,triangle_load,2). 
+has_car(east73,car_732).
+shape(car_732,ellipse). short(car_732). roof(car_732,arc_roof). load(car_732,rectangle_load,2). 
+has_car(east73,car_733).
+shape(car_733,ellipse). short(car_733). roof(car_733,arc_roof). load(car_733,triangle_load,2). 
+has_car(east73,car_734).
+shape(car_734,bucket). short(car_734). roof(car_734,no_roof). load(car_734,rectangle_load,2). 
+has_car(east74,car_741).
+shape(car_741,bucket). short(car_741). roof(car_741,no_roof). load(car_741,triangle_load,2). 
+has_car(east74,car_742).
+shape(car_742,rectangle). long(car_742). roof(car_742,flat_roof). load(car_742,circle_load,2). 
+has_car(east74,car_743).
+shape(car_743,ellipse). short(car_743). roof(car_743,arc_roof). load(car_743,triangle_load,1). 
+has_car(east74,car_744).
+shape(car_744,hexagon). short(car_744). roof(car_744,flat_roof). load(car_744,rectangle_load,1). 
+has_car(east75,car_751).
+shape(car_751,rectangle). short(car_751). roof(car_751,no_roof). load(car_751,triangle_load,1). 
+has_car(east75,car_752).
+shape(car_752,hexagon). short(car_752). roof(car_752,flat_roof). load(car_752,rectangle_load,1). 
+has_car(east75,car_753).
+shape(car_753,ellipse). short(car_753). roof(car_753,arc_roof). load(car_753,triangle_load,2). 
+has_car(east76,car_761).
+shape(car_761,rectangle). long(car_761). roof(car_761,flat_roof). load(car_761,triangle_load,3). 
+has_car(east76,car_762).
+shape(car_762,bucket). short(car_762). roof(car_762,no_roof). load(car_762,rectangle_load,2). 
+has_car(east76,car_763).
+shape(car_763,ellipse). short(car_763). roof(car_763,arc_roof). load(car_763,triangle_load,2). 
+has_car(east76,car_764).
+shape(car_764,rectangle). long(car_764). roof(car_764,no_roof). load(car_764,rectangle_load,2). 
+has_car(east77,car_771).
+shape(car_771,ellipse). short(car_771). roof(car_771,arc_roof). load(car_771,triangle_load,1). 
+has_car(east77,car_772).
+shape(car_772,rectangle). long(car_772). roof(car_772,flat_roof). load(car_772,triangle_load,3). 
+has_car(east77,car_773).
+shape(car_773,ellipse). short(car_773). roof(car_773,arc_roof). load(car_773,triangle_load,1). 
+has_car(east77,car_774).
+shape(car_774,rectangle). long(car_774). roof(car_774,flat_roof). load(car_774,rectangle_load,1). 
+has_car(east78,car_781).
+shape(car_781,rectangle). long(car_781). roof(car_781,no_roof). load(car_781,triangle_load,3). 
+has_car(east78,car_782).
+shape(car_782,rectangle). long(car_782). roof(car_782,flat_roof). load(car_782,triangle_load,3). 
+has_car(east78,car_783).
+shape(car_783,ellipse). short(car_783). roof(car_783,arc_roof). load(car_783,triangle_load,2). 
+has_car(east78,car_784).
+shape(car_784,rectangle). long(car_784). roof(car_784,flat_roof). load(car_784,circle_load,2). 
+has_car(east79,car_791).
+shape(car_791,rectangle). long(car_791). roof(car_791,no_roof). load(car_791,triangle_load,3). 
+has_car(east79,car_792).
+shape(car_792,rectangle). long(car_792). roof(car_792,no_roof). load(car_792,rectangle_load,3). 
+has_car(east79,car_793).
+shape(car_793,ellipse). short(car_793). roof(car_793,arc_roof). load(car_793,triangle_load,2). 
+has_car(east79,car_794).
+shape(car_794,u_shaped). short(car_794). roof(car_794,no_roof). load(car_794,triangle_load,1). 
+has_car(east80,car_801).
+shape(car_801,rectangle). long(car_801). roof(car_801,flat_roof). load(car_801,triangle_load,3). 
+has_car(east80,car_802).
+shape(car_802,ellipse). short(car_802). roof(car_802,arc_roof). load(car_802,rectangle_load,2). 
+has_car(east80,car_803).
+shape(car_803,ellipse). short(car_803). roof(car_803,arc_roof). load(car_803,triangle_load,2). 
+has_car(east80,car_804).
+shape(car_804,hexagon). short(car_804). roof(car_804,flat_roof). load(car_804,rectangle_load,2). 
+has_car(east81,car_811).
+shape(car_811,rectangle). long(car_811). roof(car_811,flat_roof). load(car_811,triangle_load,2). 
+has_car(east81,car_812).
+shape(car_812,rectangle). long(car_812). roof(car_812,no_roof). load(car_812,rectangle_load,3). 
+has_car(east81,car_813).
+shape(car_813,ellipse). short(car_813). roof(car_813,arc_roof). load(car_813,triangle_load,2). 
+has_car(east81,car_814).
+shape(car_814,rectangle). long(car_814). roof(car_814,flat_roof). load(car_814,triangle_load,1). 
+has_car(east82,car_821).
+shape(car_821,rectangle). long(car_821). roof(car_821,no_roof). load(car_821,triangle_load,1). 
+has_car(east82,car_822).
+shape(car_822,rectangle). long(car_822). roof(car_822,flat_roof). load(car_822,rectangle_load,1). 
+has_car(east82,car_823).
+shape(car_823,ellipse). short(car_823). roof(car_823,arc_roof). load(car_823,triangle_load,2). 
+has_car(east83,car_831).
+shape(car_831,rectangle). long(car_831). roof(car_831,no_roof). load(car_831,triangle_load,1). 
+has_car(east83,car_832).
+shape(car_832,ellipse). short(car_832). roof(car_832,arc_roof). load(car_832,rectangle_load,2). 
+has_car(east83,car_833).
+shape(car_833,ellipse). short(car_833). roof(car_833,arc_roof). load(car_833,triangle_load,2). 
+has_car(east84,car_841).
+shape(car_841,rectangle). long(car_841). roof(car_841,no_roof). load(car_841,triangle_load,2). 
+has_car(east84,car_842).
+shape(car_842,rectangle). long(car_842). roof(car_842,flat_roof). load(car_842,rectangle_load,1). 
+has_car(east84,car_843).
+shape(car_843,ellipse). short(car_843). roof(car_843,arc_roof). load(car_843,triangle_load,1). 
+has_car(east84,car_844).
+shape(car_844,ellipse). short(car_844). roof(car_844,arc_roof). load(car_844,rectangle_load,2). 
+has_car(east85,car_851).
+shape(car_851,u_shaped). short(car_851). roof(car_851,no_roof). load(car_851,triangle_load,2). 
+has_car(east85,car_852).
+shape(car_852,rectangle). long(car_852). roof(car_852,flat_roof). load(car_852,rectangle_load,2). 
+has_car(east85,car_853).
+shape(car_853,ellipse). short(car_853). roof(car_853,arc_roof). load(car_853,triangle_load,1). 
+has_car(east86,car_861).
+shape(car_861,ellipse). short(car_861). roof(car_861,arc_roof). load(car_861,triangle_load,2). 
+has_car(east86,car_862).
+shape(car_862,ellipse). short(car_862). roof(car_862,arc_roof). load(car_862,circle_load,2). 
+has_car(east86,car_863).
+shape(car_863,ellipse). short(car_863). roof(car_863,arc_roof). load(car_863,triangle_load,2). 
+has_car(east86,car_864).
+shape(car_864,rectangle). long(car_864). roof(car_864,no_roof). load(car_864,triangle_load,3). 
+has_car(east87,car_871).
+shape(car_871,ellipse). short(car_871). roof(car_871,arc_roof). load(car_871,triangle_load,1). 
+has_car(east87,car_872).
+shape(car_872,hexagon). short(car_872). roof(car_872,flat_roof). load(car_872,rectangle_load,1). 
+has_car(east87,car_873).
+shape(car_873,ellipse). short(car_873). roof(car_873,arc_roof). load(car_873,triangle_load,2). 
+has_car(east88,car_881).
+shape(car_881,u_shaped). short(car_881). roof(car_881,no_roof). load(car_881,triangle_load,1). 
+has_car(east88,car_882).
+shape(car_882,rectangle). long(car_882). roof(car_882,flat_roof). load(car_882,circle_load,1). 
+has_car(east88,car_883).
+shape(car_883,ellipse). short(car_883). roof(car_883,arc_roof). load(car_883,triangle_load,2). 
+has_car(east89,car_891).
+shape(car_891,rectangle). long(car_891). roof(car_891,no_roof). load(car_891,triangle_load,3). 
+has_car(east89,car_892).
+shape(car_892,rectangle). long(car_892). roof(car_892,flat_roof). load(car_892,rectangle_load,1). 
+has_car(east89,car_893).
+shape(car_893,ellipse). short(car_893). roof(car_893,arc_roof). load(car_893,triangle_load,1). 
+has_car(east90,car_901).
+shape(car_901,hexagon). short(car_901). roof(car_901,flat_roof). load(car_901,triangle_load,1). 
+has_car(east90,car_902).
+shape(car_902,ellipse). short(car_902). roof(car_902,arc_roof). load(car_902,circle_load,2). 
+has_car(east90,car_903).
+shape(car_903,ellipse). short(car_903). roof(car_903,arc_roof). load(car_903,triangle_load,2). 
+has_car(east91,car_911).
+shape(car_911,rectangle). long(car_911). roof(car_911,no_roof). load(car_911,triangle_load,2). 
+has_car(east91,car_912).
+shape(car_912,rectangle). long(car_912). roof(car_912,no_roof). load(car_912,rectangle_load,1). 
+has_car(east91,car_913).
+shape(car_913,ellipse). short(car_913). roof(car_913,arc_roof). load(car_913,triangle_load,2). 
+has_car(east92,car_921).
+shape(car_921,rectangle). long(car_921). roof(car_921,flat_roof). load(car_921,triangle_load,3). 
+has_car(east92,car_922).
+shape(car_922,u_shaped). short(car_922). roof(car_922,no_roof). load(car_922,triangle_load,2). 
+has_car(east92,car_923).
+shape(car_923,ellipse). short(car_923). roof(car_923,arc_roof). load(car_923,triangle_load,1). 
+has_car(east92,car_924).
+shape(car_924,u_shaped). short(car_924). roof(car_924,no_roof). load(car_924,triangle_load,2). 
+has_car(east93,car_931).
+shape(car_931,rectangle). long(car_931). roof(car_931,flat_roof). load(car_931,triangle_load,3). 
+has_car(east93,car_932).
+shape(car_932,rectangle). long(car_932). roof(car_932,no_roof). load(car_932,rectangle_load,3). 
+has_car(east93,car_933).
+shape(car_933,ellipse). short(car_933). roof(car_933,arc_roof). load(car_933,triangle_load,1). 
+has_car(east94,car_941).
+shape(car_941,rectangle). long(car_941). roof(car_941,no_roof). load(car_941,triangle_load,2). 
+has_car(east94,car_942).
+shape(car_942,ellipse). short(car_942). roof(car_942,arc_roof). load(car_942,rectangle_load,1). 
+has_car(east94,car_943).
+shape(car_943,ellipse). short(car_943). roof(car_943,arc_roof). load(car_943,triangle_load,1). 
+has_car(east95,car_951).
+shape(car_951,rectangle). long(car_951). roof(car_951,no_roof). load(car_951,triangle_load,1). 
+has_car(east95,car_952).
+shape(car_952,hexagon). short(car_952). roof(car_952,flat_roof). load(car_952,triangle_load,2). 
+has_car(east95,car_953).
+shape(car_953,ellipse). short(car_953). roof(car_953,arc_roof). load(car_953,triangle_load,1). 
+has_car(east96,car_961).
+shape(car_961,rectangle). long(car_961). roof(car_961,no_roof). load(car_961,triangle_load,2). 
+has_car(east96,car_962).
+shape(car_962,rectangle). long(car_962). roof(car_962,no_roof). load(car_962,rectangle_load,1). 
+has_car(east96,car_963).
+shape(car_963,ellipse). short(car_963). roof(car_963,arc_roof). load(car_963,triangle_load,1). 
+has_car(east97,car_971).
+shape(car_971,rectangle). long(car_971). roof(car_971,no_roof). load(car_971,triangle_load,1). 
+has_car(east97,car_972).
+shape(car_972,rectangle). long(car_972). roof(car_972,flat_roof). load(car_972,rectangle_load,1). 
+has_car(east97,car_973).
+shape(car_973,ellipse). short(car_973). roof(car_973,arc_roof). load(car_973,triangle_load,1). 
+has_car(east97,car_974).
+shape(car_974,hexagon). short(car_974). roof(car_974,flat_roof). load(car_974,rectangle_load,2). 
+has_car(east98,car_981).
+shape(car_981,ellipse). short(car_981). roof(car_981,arc_roof). load(car_981,triangle_load,1). 
+has_car(east98,car_982).
+shape(car_982,bucket). short(car_982). roof(car_982,no_roof). load(car_982,triangle_load,1). 
+has_car(east98,car_983).
+shape(car_983,ellipse). short(car_983). roof(car_983,arc_roof). load(car_983,triangle_load,1). 
+has_car(east98,car_984).
+shape(car_984,rectangle). long(car_984). roof(car_984,flat_roof). load(car_984,triangle_load,1). 
+has_car(east99,car_991).
+shape(car_991,rectangle). short(car_991). roof(car_991,no_roof). load(car_991,triangle_load,2). 
+has_car(east99,car_992).
+shape(car_992,rectangle). long(car_992). roof(car_992,flat_roof). load(car_992,triangle_load,1). 
+has_car(east99,car_993).
+shape(car_993,ellipse). short(car_993). roof(car_993,arc_roof). load(car_993,triangle_load,2). 
+has_car(east99,car_994).
+shape(car_994,rectangle). long(car_994). roof(car_994,flat_roof). load(car_994,rectangle_load,1). 
+has_car(east100,car_1001).
+shape(car_1001,u_shaped). short(car_1001). roof(car_1001,no_roof). load(car_1001,triangle_load,1). 
+has_car(east100,car_1002).
+shape(car_1002,rectangle). long(car_1002). roof(car_1002,flat_roof). load(car_1002,circle_load,3). 
+has_car(east100,car_1003).
+shape(car_1003,ellipse). short(car_1003). roof(car_1003,arc_roof). load(car_1003,triangle_load,2). 
+has_car(east100,car_1004).
+shape(car_1004,rectangle). long(car_1004). roof(car_1004,flat_roof). load(car_1004,circle_load,3). 

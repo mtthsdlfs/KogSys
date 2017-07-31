@@ -7,7 +7,7 @@ feature(T) :- arg(1,T,L), examine(L).
 
 examine(([])).
 examine((T)):-
-                   open('trains_feature_csv_west.txt',append,Stream),
+                   open('trains_feature_rel_east.txt',append,Stream),
                     (train_2(T) -> write(Stream,"1, "); write(Stream,"0, ")),
                     (train_3(T) -> write(Stream,"1, "); write(Stream,"0, ")),
                     (train_4(T) -> write(Stream,"1, "); write(Stream,"0, ")),
